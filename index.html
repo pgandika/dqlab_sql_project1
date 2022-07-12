@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Engineer Challenge with SQL</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>Data Engineer Challenge with SQL</strong>
+				</div>
+				<div class="inner">
+					<a href="https://pgandika.github.io/Andika_Gumilang_Portfolio/"class="button small">Home</a>
+					<a href="https://pgandika.github.io/Andika_Gumilang_Portfolio/"class="button small">Projects</a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1><Strong>Data Engineer Challenge with SQL</Strong></h1>
+						</header>
+						<br>
+						<div class="row gtr-50 gtr-uniform">
+								<div class="col-5"><span class="image fit"><img src="images/sql_assignment_cover.png"></span></div>
+							</div><br>
+						<h2><strong>Project Summary</strong></h2>
+						<p>Improving the Understanding of SQL function to help access, read, manipulate, and analyze the data stored in the database and generate useful insights to drive an informed decision-making process, and this 2 main things that I did in this project :</p>
+						<ol>
+							<li>Created SQL query based using aggregate functions,data manipulation, date format, joins, CTE,</li>
+							<li>Created the insights for the project </li>
+					  	</ol>
+						<br>
+
+						<h2><strong>Project Background & Dataset</strong></h2>
+						<h3>Project Background</h3>
+							<p>Provide data and analysis regarding the condition of the company in the last month, including sales growth, customer growth,transaction growth, actual active customer,  Explore and get the hands on Structured Query Language (SQL). As a data analyst, we are expected to use SQL to formating and cleaning the data, joining the data, using CTE and Window function also generating useful insights from the data. </p>
+					</section>
+						<h3>Dataset : DQLAB company’s performance</h3>
+							<p> A data analyst is asked to provide data and analysis regarding the current condition of the company.</p>
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-7"><span class="image fit"><img src="images/e1.JPG"></span></div>
+							</div>
+							<p>The tables that will be used in this project are:</p>
+							<ol>	
+							<li>ms_pelanggan table: Contains profile data of consumers who have registered as xyz.com customers</li>
+							<li>ms_produk table: Contains data related to produk detail </li>
+							<li>tr_penjualan table: Contains data related to sales transactions</li>
+							<li>tr_penjualan_detail table:  Contains data related to detail sales transactions </li>
+						</ol>
+						<p><h2>Project Files</h2></p>
+						For a more comprehensive analysis and visualization, please open the project files.
+						<ul>
+							<li><a href="https://console.cloud.google.com/bigquery?sq=846791540182:ae10efc2fca04689adb5d2f63af7861a">Query Code - Google BigQuery</a></li>
+							<li><a href="https://github.com/pgandika/RevoU-SQL-Project">Github Repository</a></li>
+						</ul>
+					</section>
+
+				<!-- Four -->
+				<section id="four">
+						<p><b>1.DQLab Mart products</b></p>
+						<script src="https://pastebin.com/embed_js/1JRWZPrU?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/e2.JPG"></span></div>
+						</div>
+						<p><br>Based on the output, there are 6 products that have prices between 50,000 and 150,000.</p>
+
+						<p><b>2.Thumb drive at DQLab Mart</b></p>
+						<script src="https://pastebin.com/embed_js/DM9VCBgW?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/e3.JPG"></span></div>
+						</div>
+						<p><br>Based on the output, there are 2 products whose names contain the word flashdisk.</p>
+
+						<p><b>3.Title customers</b></p>
+						<script src="https://pastebin.com/embed_js/bscbHg9m?theme=dark""></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/e4.JPG"></span></div>
+						</div>
+						<p><br>Based on the output, there are 3 names of customers who have the title of S.H., or Ir., or Drs.</p>
+
+						<p><b>4.Sort Customer Names</b></p>
+						<script src="https://pastebin.com/embed_js/0ERdGheQ?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e5.JPG"></span></div>
+						</div>
+						<p>Based on the output, customer names have been sorted from letter A to letter U</p>
+
+						
+						<p><b>5.Sort Customer Names Without Titles</b></p>
+						<p>Show customer names and sort the results according to the nama_pelanggan from smallest to largest (A to Z), however titles should not be part of the order. Example: Ir. Agus Nugraha should be above Heidi Goh.
+							Required column name: nama_pelanggan.
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/CDtZWVsY?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e6.JPG"></span></div>
+						</div>
+						<p>Based on the output, customer names have been sorted from letter A to letter U regardless of the title.</p>
+
+						
+						<p><b>6.The Longest Customer Name</b></p>
+						<p>Show customer name who has the longest name. If there is more than one person with the same name length, show all of them.
+							Required column name: nama_pelanggan.
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/TSJEpdhr?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e7.JPG"></span></div>
+						</div>
+						<p>Based on the output, there is one name which is the longest customer name that has 19 characters.</p>
+
+						
+						
+						<p><b>7.Longest and Shortest Customer’s Name with Title</b></p>
+						<p>Show customer names who has the longest name (on the top row) and the shortest name (on the next row). Title becomes part of the name. If there is more than one shortest or longest name, all of them must be showed.
+							Required column name: nama_pelanggan.
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/2SFWCnpM?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e8.JPG"></span></div>
+						</div>
+						<p>Based on the output, there is one name which is the longest customer name that has 19 characters and one name which is the shortest customer name that has 9 characters.</p>
+
+												
+						<p><b>8.The quantity of products sold</b></p>
+						<p>Show the most sold products in terms of quantity. If there is more than one product with the same value, show all the products.
+							Required column name: kode_produk, nama_produk,total_qty.
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/TeEeNUep?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e9.JPG"></span></div>
+						</div>
+						<p>Based on the output, there are 2 products that are sold the most.</p>
+
+													
+						<p><b>9.Customers with the Highest Purchase Value</b></p>
+						<p>Who are the customers who spend the most money on shopping? If there are more than one customer with the same value, show all the customers.
+							Required column name: kode_pelanggan, nama_pelanggan, total_harga
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/ntQQQ4w1?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e10.JPG"></span></div>
+						</div>
+						<p>Based on the output results, there is one customer who makes the most transactions.</p>
+
+													
+						<p><b>10.Customers Who Have Never Shopped</b></p>
+						<p>Show a list of customers who have never made a transaction.
+							Required column name: kode_pelanggan, nama_pelanggan, alamat.
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/yTrdTzPb?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3"><span class="image fit"><img src="images/e11.JPG"></span></div>
+						</div>
+						<p>Based on the output results, there are 5 customers who have never made a transaction.</p>
+
+						<p><b>11.Shopping Transactions with a Shopping List more than 1</b></p>
+						<p>Show transactions that have more than one type of product. In other words, show transactions that have more than one row of data in tr_penjualan_detail table.
+							Required column name: kode_transaksi, kode_pelanggan, nama_pelanggan, tanggal_transaksi, jumlah_detail
+							
+							The query will be performed using SQL:</p>
+						<script src="https://pastebin.com/embed_js/n8y0EacJ?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/e12.JPG"></span></div>
+						</div>
+						<p>Based on the output, there are 5 transactions that have the number of product sold for more than one type of product.</p>
+
+					</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/andika-gumilang-6aa09b113/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/pgandika" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:andikapg19@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Andika Putra G</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
